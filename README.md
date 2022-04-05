@@ -1,16 +1,11 @@
 <h1 align="center">
-    <img src="./assets/cronos.svg" alt="Cronos Logo" width="300" />
+    <img src="https://user-images.githubusercontent.com/102999403/161840931-850d3777-e135-4c2d-a9a1-05cadd2afcd4.gif" alt="Cronos Logo" width="300" />
 </h1>
+
 
 # Block Explorer
 
-This repository contains the code base of the Cronos Block Explorer
-
-## Explorer Link
-
-Cronos Mainnet: https://cronos.org/explorer
-Cronos Testnet: https://cronos.org/explorer/testnet3
-Cronos Gravity Testnet: https://cronos.org/explorer/gravity/testnet3
+This repository contains the code base of the Echelon Block Explorer
 
 ## License
 
