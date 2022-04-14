@@ -15,13 +15,13 @@ defmodule BlockScoutWeb.LayoutViewTest do
 
   describe "logo/0" do
     test "use the enviroment logo when it's configured" do
-      Application.put_env(:block_scout_web, BlockScoutWeb.Chain, logo: "custom/logo.png")
+      Application.put_env(:block_scout_web, BlockScoutWeb.Chain, logo: "/images/echelon.svg")
 
-      assert LayoutView.logo() == "custom/logo.png"
+      assert LayoutView.logo() == "/images/echelon.svg"
     end
 
     test "use the default logo when there is no env configured for it" do
-      assert LayoutView.logo() == "/images/blockscout_logo.svg"
+      assert LayoutView.logo() == "/images/echelon.svg"
     end
   end
 
@@ -33,7 +33,7 @@ defmodule BlockScoutWeb.LayoutViewTest do
     end
 
     test "use the default subnetwork title when there is no env configured for it" do
-      assert LayoutView.subnetwork_title() == "Cronos"
+      assert LayoutView.subnetwork_title() == "Echelon"
     end
   end
 

@@ -42,7 +42,7 @@
         'Less than': '<%= gettext("Less than") %>',
         'Market Cap': '<%= gettext("Market Cap") %>',
         'Price': '<%= gettext("Price") %>',
-        'Ether': '<%= System.get_env("MAIN_DENOM") || gettext("TCRO") %>',
+        'Ether': '<%= System.get_env("MAIN_DENOM") || gettext("ECH") %>',
         'Tx/day': '<%= gettext("Tx/day") %>'
       }
     </script>
@@ -250,7 +250,7 @@
     </script>
     <script defer data-cfasync="false">
       if (localStorage.getItem("current-color-mode") === "dark") {
-        document.getElementById("top-navbar").style.backgroundColor = "#0b1426";
+        document.getElementById("top-navbar").style.backgroundColor = "#150b26";
         document.getElementById("navbar-logo").style.filter = "brightness(0) invert(1)";
         let modeChanger = document.getElementById("dark-mode-changer");
         modeChanger.className += " " + "dark-mode-changer--dark";

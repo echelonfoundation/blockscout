@@ -91,7 +91,7 @@ defmodule BlockScoutWeb.BlockViewTest do
 
       block = Repo.preload(block, :rewards)
 
-      assert BlockView.combined_rewards_value(block) == "3.000042 TCRO"
+      assert BlockView.combined_rewards_value(block) == "3.000042 ECH"
     end
   end
 end

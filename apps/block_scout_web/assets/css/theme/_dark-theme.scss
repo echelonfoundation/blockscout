@@ -1,14 +1,14 @@
-$body-dark: #051221; // body background
+$body-dark: #0a0b24; // body background
 $dark-bg: rgba(255, 255, 255, 0.05); // hero shade
-$dark-light-bg: #0b1426; // pills bg shade
+$dark-light-bg: #150b26; // pills bg shade
 $dark-light: rgba(17,153,250,.1); // tile light top share
 $labels-dark: #8a8dba; // header nav, labels
 $dark-stakes-banned-background: #3e314c;
 $dark-card-bg: rgba(255, 255, 255, 0.05);
-$dark-card-tile-bg: rgba(17,153,250,.1);
-$dark-dropdown-menu-bg: #151e2b;
+$dark-card-tile-bg: rgba(79, 17, 250, 0.1);
+$dark-dropdown-menu-bg: #1d152b;
 $dark-subtitle-color: #fff; //
-$dark-btn-hover-bg: #43aefb;
+$dark-btn-hover-bg: #5f43fb;
 
 // Switcher
 .dark-mode-changer {
@@ -157,7 +157,7 @@ $dark-btn-hover-bg: #43aefb;
 			color: $dark-primary;
 		}
 		&.active {
-			background-color: $dark-primary-alternate;
+			background-color: #300e5c;
 			color: #fff;
 		}
 	}
@@ -219,7 +219,7 @@ $dark-btn-hover-bg: #43aefb;
 		background-color: $dark-primary;
 	}
 	.tile.tile-type-block {
-		border-left-color: $dark-primary
+		border-left-color: #5f43fb;
 	}
 	.tile.tile-type-block .tile-status-label {
 		color: $dark-primary;
@@ -242,9 +242,9 @@ $dark-btn-hover-bg: #43aefb;
 	// btns
 
 	.btn-line {
-		background-color: $dark-primary;
-		border-color: $dark-primary;
-		color: $dark-subtitle-color;
+		background-color: #663399;
+		border-color: #663399;
+		color: #fff;
 		&:hover {
 			border-color: $dark-primary;
 			background-color: $dark-btn-hover-bg;
@@ -1025,7 +1025,7 @@ $dark-btn-hover-bg: #43aefb;
 
 	.bs-label {
 		color: #fff;
-		background: #1199FA;
+		background: #6a11fa;
 	}
 
 	.bs-label.method {

@@ -3,7 +3,7 @@
 <nav class="navbar navbar-dark navbar-expand-lg navbar-primary" data-selector="navbar" id="top-navbar">
   <script>
     if (localStorage.getItem("current-color-mode") === "dark") {
-      document.getElementById("top-navbar").style.backgroundColor = "#0b1426";
+      document.getElementById("top-navbar").style.backgroundColor = "#150b26";
     }
   </script>
   <div class="container-fluid navbar-container">
@@ -108,7 +108,7 @@
                 </span>
                 <%= gettext("Tokens") %>
               </a>
-              <div class="dropdown-menu" aria-labeledby="navbarTransactionsDropdown"> 
+              <div class="dropdown-menu" aria-labeledby="navbarTransactionsDropdown">
                 <%= link(
                       gettext("All"),
                       class: "dropdown-item #{tab_status("tokens", @conn.request_path)}",

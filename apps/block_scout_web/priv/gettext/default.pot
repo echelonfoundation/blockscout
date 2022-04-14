@@ -450,7 +450,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/chain/show.html.eex:41
-msgid "CRO Price"
+msgid "ECH Price"
 msgstr ""
 
 #, elixir-format
@@ -803,7 +803,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:21
-msgid "Copyright © 2021 CRO Protocol Labs. All rights reserved."
+msgid "Copyright © 2022 Echelon. All rights reserved."
 msgstr ""
 
 #, elixir-format
@@ -823,7 +823,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:54
-msgid "Cronos Website"
+msgid "Echelon Website"
 msgstr ""
 
 #, elixir-format
@@ -1177,7 +1177,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:5
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:9 lib/block_scout_web/templates/chain/_metatags.html.eex:17
-msgid "Find out the latest blocks and transactions with Cronos Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more."
+msgid "Find out the latest blocks and transactions with Echelon Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more."
 msgstr ""
 
 #, elixir-format
@@ -2200,7 +2200,7 @@ msgstr ""
 #: lib/block_scout_web/templates/internal_transaction/_tile.html.eex:20 lib/block_scout_web/templates/layout/app.html.eex:45
 #: lib/block_scout_web/templates/transaction/_pending_tile.html.eex:20 lib/block_scout_web/templates/transaction/_tile.html.eex:37
 #: lib/block_scout_web/views/wei_helpers.ex:78
-msgid "TCRO"
+msgid "ECH"
 msgstr ""
 
 #, elixir-format
@@ -3215,11 +3215,11 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_token/overview.html.eex:1
-msgid "CRO"
+msgid "ECH"
 msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:2
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:8 lib/block_scout_web/templates/chain/_metatags.html.eex:16
-msgid "Cronos | cronos.org EVM Chain | Explorer"
+msgid "Echelon | EVM Chain | Explorer"
 msgstr ""

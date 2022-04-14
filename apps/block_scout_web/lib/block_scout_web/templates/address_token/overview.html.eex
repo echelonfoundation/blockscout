@@ -1,4 +1,4 @@
-<% native_coin = gettext("CRO") %>
+<% native_coin = gettext("ECH") %>
 <!-- USD value of the balance -->
 <% wei_value = if @address.fetched_coin_balance, do: @address.fetched_coin_balance.value %>
 <% raw_usd_value =

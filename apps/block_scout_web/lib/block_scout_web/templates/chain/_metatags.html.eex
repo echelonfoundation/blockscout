@@ -1,18 +1,18 @@
 <title>
-  <%= gettext("Cronos | cronos.org EVM Chain | Explorer") %>
+  <%= gettext("Echelon | ECH | EVM Explorer") %>
 </title>
 
-<meta name="description" content="<%= gettext "Find out the latest blocks and transactions with Cronos Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
-<link rel="canonical" href="https://cronos.org/explorer">
+<meta name="description" content="<%= gettext "Find out the latest blocks and transactions with Echelon Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
+<link rel="canonical" href="https://scout.ech.network">
 
-<meta name="og:title" content="<%= gettext "Cronos | cronos.org EVM Chain | Explorer" %>">
-<meta name="og:description" content="<%= gettext "Find out the latest blocks and transactions with Cronos Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
+<meta name="og:title" content="<%= gettext "Echelon | ECH | EVM Explorer" %>">
+<meta name="og:description" content="<%= gettext "Find out the latest blocks and transactions with Echelon Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
 <meta name="og:type" content="website">
-<meta name="og:image" content="https://cronos.org/explorer/og-image.png">
-<meta name="og:url" content="https://cronos.org/explorer/">
+<meta name="og:image" content="https://scout.ech.network">
+<meta name="og:url" content="https://scout.ech.network/">
 
 <meta name="twitter:card" content="website">
 <meta name="twitter:site" content="@cryptocom">
-<meta name="twitter:title" content="<%= gettext "Cronos | cronos.org EVM Chain | Explorer" %>">
-<meta name="twitter:description" content="<%= gettext "Find out the latest blocks and transactions with Cronos Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
-<meta name="twitter:image" content="https://cronos.org/explorer/og-image.png">
+<meta name="twitter:title" content="<%= gettext "Echelon | ECH | EVM Explorer" %>">
+<meta name="twitter:description" content="<%= gettext "Find out the latest blocks and transactions with Echelon Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
+<meta name="twitter:image" content="https://scout.ech.network">
