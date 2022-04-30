@@ -1,4 +1,4 @@
-$body-dark: #0a0b24; // body background
+$body-dark: #1b0a2c; // body background
 $dark-bg: rgba(255, 255, 255, 0.05); // hero shade
 $dark-light-bg: #150b26; // pills bg shade
 $dark-light: rgba(17,153,250,.1); // tile light top share
@@ -51,6 +51,8 @@ $dark-btn-hover-bg: #5f43fb;
 		.input-group-text {
 			&.border {
 				background-color: $dark-light-bg;
+				border-color: #7e0e75;
+				color: #ff6afa;
 			}
 		}
 	}
