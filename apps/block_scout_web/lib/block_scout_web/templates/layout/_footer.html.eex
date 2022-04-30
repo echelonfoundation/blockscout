@@ -53,6 +53,8 @@
         <ul>
           <li><a href="https://ech.network" target="_blank" rel="noreferrer" class="footer-link"><%= gettext("Echelon Website") %></a></li>
           <li><a href="https://docs.ech.network target="_blank" rel="noreferrer" class="footer-link"><%= gettext("Documentation") %></a></li>
+          <li><a href="https://bridge.ech.network" target="_blank" rel="noreferrer" class="footer-link"><%= gettext("Echelon Bridge") %></a></li>
+          <li><a href="https://wallet.ech.network" target="_blank" rel="noreferrer" class="footer-link"><%= gettext("Echelon Wallet") %></a></li>
         </ul>
       </div>
 
