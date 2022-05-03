@@ -167,7 +167,7 @@ defmodule EthereumJSONRPC.Parity.FetchedBeneficiaries do
   # Beneficiary's address type will depend on the responses' action.rewardType,
   # which will vary depending on which network is being indexed
   #
-  # On POA networks, rewardType will always be external and the type of the address being
+  # On ECH networks, rewardType will always be external and the type of the address being
   # rewarded will depend on its position.
   # First address will always be the validator's while the second will be the EmissionsFunds address
   #

@@ -153,7 +153,7 @@ defmodule BlockScoutWeb.Mixfile do
 
   defp package do
     [
-      maintainers: ["POA Networks Ltd."],
+      maintainers: ["ECH Networks Ltd."],
       licenses: ["GPL 3.0"],
       links: %{"GitHub" => "https://github.com/blockscout/blockscout"}
     ]

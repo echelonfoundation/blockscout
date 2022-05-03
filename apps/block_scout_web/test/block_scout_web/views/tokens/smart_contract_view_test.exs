@@ -119,7 +119,7 @@ defmodule BlockScoutWeb.SmartContractViewTest do
     end
 
     test "returns true when there is name" do
-      arguments = %{"name" => "POA"}
+      arguments = %{"name" => "ECH"}
 
       assert SmartContractView.named_argument?(arguments)
     end
@@ -180,15 +180,15 @@ defmodule BlockScoutWeb.SmartContractViewTest do
     end
 
     test "returns the value when the type is neither 'address' nor 'address payable'" do
-      value = "POA"
+      value = "ECH"
 
-      assert SmartContractView.values_only(value, "string", nil) == wrap_it("POA")
+      assert SmartContractView.values_only(value, "string", nil) == wrap_it("ECH")
     end
 
     test "returns the value when the type is :string" do
-      value = "POA"
+      value = "ECH"
 
-      assert SmartContractView.values_only(value, :string, nil) == wrap_it("POA")
+      assert SmartContractView.values_only(value, :string, nil) == wrap_it("ECH")
     end
 
     test "returns the value when the type is :bytes" do

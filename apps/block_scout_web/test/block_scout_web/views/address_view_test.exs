@@ -210,8 +210,8 @@ defmodule BlockScoutWeb.AddressViewTest do
     test "gives an address's primary name when present" do
       address = insert(:address)
 
-      address_name = insert(:address_name, address: address, primary: true, name: "POA Foundation Wallet")
-      insert(:address_name, address: address, name: "POA Wallet")
+      address_name = insert(:address_name, address: address, primary: true, name: "ECH Foundation Wallet")
+      insert(:address_name, address: address, name: "ECH Wallet")
 
       preloaded_address = Explorer.Repo.preload(address, :names)
 
@@ -219,7 +219,7 @@ defmodule BlockScoutWeb.AddressViewTest do
     end
 
     test "returns nil when no primary available" do
-      address_name = insert(:address_name, name: "POA Wallet")
+      address_name = insert(:address_name, name: "ECH Wallet")
       preloaded_address = Explorer.Repo.preload(address_name.address, :names)
 
       refute AddressView.primary_name(preloaded_address)
@@ -370,10 +370,10 @@ defmodule BlockScoutWeb.AddressViewTest do
 
   describe "address_page_title/1" do
     test "uses the Smart Contract name when the contract is verified" do
-      smart_contract = build(:smart_contract, name: "POA")
+      smart_contract = build(:smart_contract, name: "ECH")
       address = build(:address, smart_contract: smart_contract)
 
-      assert AddressView.address_page_title(address) == "POA (#{address})"
+      assert AddressView.address_page_title(address) == "ECH (#{address})"
     end
 
     test "uses the string 'Contract' when it's a contract" do

@@ -100,7 +100,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/block/overview.html.eex:188
-msgid "64-bit hash of value verifying proof-of-work (note: null for POA chains)."
+msgid "64-bit hash of value verifying proof-of-work (note: null for ECH chains)."
 msgstr ""
 
 #, elixir-format
@@ -381,7 +381,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/block/overview.html.eex:151
-msgid "Block difficulty for miner, used to calibrate block generation time (Note: constant in POA based networks)."
+msgid "Block difficulty for miner, used to calibrate block generation time (Note: constant in ECH based networks)."
 msgstr ""
 
 #, elixir-format
